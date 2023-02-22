@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: UWGM-taxa-list-test-input.csv
+    - url: names.csv
       enabled: true
       type: text/csv
     - id: mdd
@@ -43,10 +43,10 @@ taxonomies:
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: true
+      enabled: false
       name: Catalogue of Life
     - id: gbif
-      enabled: true
+      enabled: false
       name: GBIF Backbone Taxonomy
     - id: globi
       enabled: false
@@ -61,7 +61,7 @@ taxonomies:
       enabled: false
       name: Open Tree of Life Taxonomy
     - id: pbdb
-      enabled: true
+      enabled: false
       name: Paleobiology Database
     - id: plazi
       enabled: false
@@ -181,6 +181,5 @@ $ preston cat 'line:zip:hash://sha256/fe63af46ed66abd253ee148e383fb51da6695ce384
 which links to a preserved specimen with occurrenceId b03a3f0c-bfa5-4e02-b5d3-56ff38626302 and landing page at https://serv.biokic.asu.edu/ecdysis/collections/individual/index.php?occid=881449 . Also see [screenshot made on 2022-06-30](./img/UCSB-IZC00038312_b03a3f0c-bfa5-4e02-b5d3-56ff38626302.png). 
 
 With this context, you can trace the origin and context of the name in great detail. This detail can be used to troubleshoot bugs in the name alignment process, or provide granular feedback to those that maintain the dataset or taxonomy.  
-
 
 
