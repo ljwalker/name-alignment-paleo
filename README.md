@@ -33,6 +33,9 @@ taxonomies:
     - id: itis
       enabled: false
       name: Integrated Taxonomic Information System
+    - id: worms
+      enabled: false
+      name: World Register of Marine Species
     - id: ncbi
       enabled: false
       name: NCBI Taxonomy
