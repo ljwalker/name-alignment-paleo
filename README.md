@@ -31,7 +31,7 @@ taxonomies:
 #  enabled: false
 #
     - id: worms
-      enabled: true
+      enabled: false
       name: World Register of Marine Species
     - id: wikidata-web
       enabled: true
@@ -55,7 +55,7 @@ taxonomies:
       enabled: false
       name: GBIF Backbone Taxonomy
     - id: globi
-      enabled: true
+      enabled: false
       name: GloBI Taxon Graph
     - id: indexfungorum
       enabled: false
