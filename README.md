@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: Vertebrate-test.csv
+    - url: CUPectinTestData.csv
       enabled: true
       type: text/csv
     - id: mdd
@@ -30,8 +30,11 @@ taxonomies:
 # To disable taxonomies to align with set: 
 #  enabled: false
 #
-    - id: itis
+    - id: worms
       enabled: true
+      name: World Register of Marine Species
+    - id: itis
+      enabled: false
       name: Integrated Taxonomic Information System
     - id: ncbi
       enabled: false
@@ -43,13 +46,13 @@ taxonomies:
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: false
+      enabled: true
       name: Catalogue of Life
     - id: gbif
       enabled: false
       name: GBIF Backbone Taxonomy
     - id: globi
-      enabled: false
+      enabled: true
       name: GloBI Taxon Graph
     - id: indexfungorum
       enabled: false
