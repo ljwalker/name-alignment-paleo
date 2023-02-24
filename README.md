@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: CUPectinTestData.csv
+    - url: Vertebrate-test.csv
       enabled: true
       type: text/csv
     - id: mdd
@@ -33,6 +33,9 @@ taxonomies:
     - id: worms
       enabled: true
       name: World Register of Marine Species
+    - id: wikidata-web
+      enabled: true
+      name: Wikidata
     - id: itis
       enabled: false
       name: Integrated Taxonomic Information System
