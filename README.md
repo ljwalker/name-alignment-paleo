@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: CUPectinTestData.csv
+    - url: names.csv
       enabled: true
       type: text/csv
     - id: mdd
@@ -31,25 +31,22 @@ taxonomies:
 #  enabled: false
 #
     - id: itis
-      enabled: false
+      enabled: true
       name: Integrated Taxonomic Information System
-    - id: worms
-      enabled: false
-      name: World Register of Marine Species
     - id: ncbi
-      enabled: false
+      enabled: true
       name: NCBI Taxonomy
     - id: discoverlife
-      enabled: false
+      enabled: true
       name: Discover Life Taxonomy
     - id: batnames
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: true
+      enabled: false
       name: Catalogue of Life
     - id: gbif
-      enabled: true
+      enabled: false
       name: GBIF Backbone Taxonomy
     - id: globi
       enabled: false
@@ -64,7 +61,7 @@ taxonomies:
       enabled: false
       name: Open Tree of Life Taxonomy
     - id: pbdb
-      enabled: true
+      enabled: false
       name: Paleobiology Database
     - id: plazi
       enabled: false
