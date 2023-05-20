@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: UWGM-taxa-list-test-input.csv
+    - url: pbdb_data (14).csv
       enabled: true
       type: text/csv
     - id: mdd
@@ -34,7 +34,7 @@ taxonomies:
       enabled: false
       name: World Register of Marine Species
     - id: wikidata-web
-      enabled: true
+      enabled: false
       name: Wikidata
     - id: itis
       enabled: false
@@ -49,7 +49,7 @@ taxonomies:
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: true
+      enabled: false
       name: Catalogue of Life
     - id: gbif
       enabled: false
@@ -67,7 +67,7 @@ taxonomies:
       enabled: false
       name: Open Tree of Life Taxonomy
     - id: pbdb
-      enabled: true
+      enabled: false
       name: Paleobiology Database
     - id: plazi
       enabled: false
