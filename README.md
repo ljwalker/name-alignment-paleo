@@ -34,25 +34,25 @@ taxonomies:
       enabled: true
       name: World Register of Marine Species
     - id: wikidata-web
-      enabled: false
+      enabled: true
       name: Wikidata
     - id: itis
-      enabled: false
+      enabled: true
       name: Integrated Taxonomic Information System
     - id: ncbi
-      enabled: false
+      enabled: true
       name: NCBI Taxonomy
     - id: discoverlife
-      enabled: false
+      enabled: true
       name: Discover Life Taxonomy
     - id: batnames
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: false
+      enabled: true
       name: Catalogue of Life
     - id: gbif
-      enabled: false
+      enabled: true
       name: GBIF Backbone Taxonomy
     - id: globi
       enabled: false
@@ -64,16 +64,16 @@ taxonomies:
       enabled: false
       name: Mammal Diversity Database
     - id: ott
-      enabled: false
+      enabled: true
       name: Open Tree of Life Taxonomy
     - id: pbdb
-      enabled: false
+      enabled: true
       name: Paleobiology Database
     - id: plazi
-      enabled: false
+      enabled: true
       name: Plazi Treatments
     - id: tpt
-      enabled: false
+      enabled: true
       name: Terrestrial Parasite Tracker Taxonomies
     - id: wfo
       enabled: false
@@ -120,7 +120,7 @@ This repository was conceived on 2022-03-08 during the [Alien CSI Hack-a-thon](h
 name | affiliation | orcid 
 --- | --- | ---
 Jorrit Poelen | GloBI; Ronin Institute | https://orcid.org/0000-0003-3138-4118
-your name | your affiliation | your orcid
+Lindsay Walker | Arizona State University | https://orcid.org/0000-0002-2162-6593
 
 
 # Feedback / issues
