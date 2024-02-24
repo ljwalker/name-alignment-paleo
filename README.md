@@ -67,7 +67,7 @@ taxonomies:
       enabled: false
       name: Open Tree of Life Taxonomy
     - id: pbdb
-      enabled: true
+      enabled: false
       name: Paleobiology Database
     - id: plazi
       enabled: false
