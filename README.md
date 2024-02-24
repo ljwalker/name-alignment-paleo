@@ -31,7 +31,7 @@ taxonomies:
 #  enabled: false
 #
     - id: worms
-      enabled: false
+      enabled: true
       name: World Register of Marine Species
     - id: wikidata-web
       enabled: false
